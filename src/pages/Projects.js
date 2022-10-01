@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Resume = () => {
+const Contact = () => {
     return( 
     <div >
       hello
@@ -9,4 +9,4 @@ const Resume = () => {
 };
 
 
-export default Resume;
+export default Contact;

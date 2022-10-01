@@ -1,22 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {  ApolloProvider } from '@apollo/client';
+
 
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Aboutme from './pages/Aboutme';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Contact from './pages/Projects';
 import Resume from './pages/Resume';
 
 
 function App() {
   return (
-    <ApolloProvider client={client}>
+   <div>
     <Router>
     <Header />   
-    <div className="flex-column justify-center align-center min-100-vh bg-primary">
+    <div>
     <Routes>
             <Route 
               path="/" 
@@ -38,7 +38,7 @@ function App() {
     </div>
     </Router>
     <Footer />
-    </ApolloProvider>
+    </div>
     );
   }
   
