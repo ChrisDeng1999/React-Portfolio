@@ -1,12 +1,19 @@
-// import React, { useState } from 'react';
-
-// const Aboutme = () => {
-//     return( 
-//     <div >
-//       hello
-//     </div>
-//     );
-// };
+import React from 'react';
 
 
-// export default Aboutme;
+const Header = () => {
+    return( 
+    <div> 
+    <nav>
+      <h1>Chris Deng</h1>
+      <li>About me</li>
+      <li>Experience</li>
+      <li>Projects</li>
+      <li>Resume</li>
+    </nav>
+    </div>
+    );
+};
+
+
+export default Header;

@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-import './App.css';
+
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Aboutme from './pages/Aboutme';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Projects';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 
 
@@ -23,12 +23,12 @@ function App() {
               element={<Aboutme />}
             />
             <Route 
-              path="/Portfolio" 
-              element={<Portfolio />}
+              path="/Experience" 
+              element={<Experience />}
             />
             <Route 
-              path="/Contact" 
-              element={<Contact />}
+              path="/Projects" 
+              element={<Projects />}
             />
             <Route 
               path="/Resume"
