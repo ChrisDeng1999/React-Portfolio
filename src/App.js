@@ -34,6 +34,10 @@ function App() {
               path="/Resume"
               element={<Resume />}
             />
+            <Route 
+              path ="*"
+              element = {<h1>This Page Doesn't Exist!</h1>}
+              />
           </Routes>
     </div>
     </Router>
