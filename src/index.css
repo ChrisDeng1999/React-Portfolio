@@ -1,4 +1,45 @@
-.container {
+
+.title {
     margin: 1rem;
     text-align: center;
+}
+.project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pro-container {
+    margin: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 20rem;
+} 
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    height: 4rem;
+    width: 12rem;
+    font-size: large;
+}
+
+.res-container:hover {
+    color: white;
+    background-color: black;
+    transition: all .5s;
 }

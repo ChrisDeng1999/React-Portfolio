@@ -4,7 +4,7 @@ import React from "react";
 const Aboutme = () => {
   return (
     <div>
-      <h1 className="container">About me</h1>
+      <h1 className="title">About me</h1>
 
       <p>
         Hello, my name is Chris Deng. I am 22 years old and graduated from
